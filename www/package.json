@@ -1,0 +1,32 @@
+{
+  "name": "www",
+  "author": "",
+  "description": "",
+  "version": "1.0.0",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve",
+    "wasm-build": "cd .. && wasm-pack build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "wasm-pkg": "file:../pkg"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.41",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.3",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.0.0",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "license": "ISC"
+}
